@@ -1,0 +1,26 @@
+2013-07-07 Jonathan Heilmann <mail@jonathan-heilmann.de>
+    * Initial release
+
+2013-07-07 Jonathan Heilmann <mail@jonathan-heilmann.de>
+    * Added support for list-view (see manual for usage)
+
+2013-07-09 Jonathan Heilmann <mail@jonathan-heilmann.de>
+    * Added typoscript setup to move javascript to header (plugin.tx_news.tx_jhsocialshareprivacynews.js_to_head) (see manual for usage)
+    * Fixed bug that ignored the user typoscript setup
+
+2013-10-15 Jonathan Heilmann <mail@jonathan-heilmann.de>
+	 * Fixed a bug that prevented the user from changing the settings
+	 * Updated the socialshareprivacy-plugin (https://github.com/patrickheck/socialshareprivacy)
+	 * Added english translation for labels
+	 * Updated manual
+
+2013-11-19 Jonathan Heilmann <mail@jonathan-heilmann.de>
+	* Fixed a bug that prevented the activate permanent from working
+	* Added dependencies to ext_emconf.php
+	* Updated file jquery.socialshareprivacy.js to version 1.4.3
+	* Updated images of socialshareprivacy-plugin (https://github.com/patrickheck/socialshareprivacy/issues/9)
+	* Updated manual
+
+2014-08-02 Jonathan Heilmann <mail@jonathan-heilmann.de>
+	* Added dependencies.
+	* Converted manual to rest documentation.

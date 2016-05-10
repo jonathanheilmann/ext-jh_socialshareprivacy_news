@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>module</type>
+        <description>Language labels for extension 'jh_socialshareprivacy_news'</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="txt_help"><![CDATA[If you activate this by clicking, information will be send to facebook, twitter or google to the USA and possibly saved there. See <em>i</em> for more information.]]></label>
+            <label index="settings_perma">Activate permanent and confirm information transfer:</label>
+
+            <label index="fb_txt_info"><![CDATA[2 clicks for more privacy: Not until clicking hier, the button is activated und you may send your recommendation to facebook. By activating, data will be sent to third – see <em>i</em>.]]></label>
+            <label index="txt_fb_off">Not connected to facebook</label>
+            <label index="txt_fb_on">Connected to facebook</label>
+            <label index="fb_dummy_caption">Recommend</label>
+
+            <label index="twitter_txt_info"><![CDATA[2 clicks for more privacy: Not until clicking hier, the button is activated und you may send your recommendation to twitter. By activating, data will be sent to third – see <em>i</em>.]]></label>
+            <label index="txt_twitter_off">Not connected to twitter</label>
+            <label index="txt_twitter_on">Connected to twitter</label>
+            <label index="twitter_dummy_caption">Tweet</label>
+
+            <label index="gplus_txt_info"><![CDATA[2 clicks for more privacy: Not until clicking hier, the button is activated und you may send your recommendation to google+. By activating, data will be sent to third – see <em>i</em>.]]></label>
+            <label index="txt_gplus_off">Not connected to google+</label>
+            <label index="txt_gplus_on">Connected to google+</label>
+
+        </languageKey>
+
+        <languageKey index="de" type="array">
+            <label index="txt_help"><![CDATA[Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter oder Google in die USA übertragen und unter Umständen auch dort gespeichert. Näheres erfahren Sie durch einen Klick auf das <em>i</em>.]]></label>
+            <label index="settings_perma">Dauerhaft aktivieren und Datenübertragung zustimmen:</label>
+            <label index="fb_txt_info"><![CDATA[2 Klicks für mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie können Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte übertragen – siehe <em>i</em>.]]></label>
+            <label index="txt_fb_off">nicht mit Facebook verbunden</label>
+            <label index="txt_fb_on">mit Facebook verbunden</label>
+            <label index="fb_dummy_caption">Empfehlen</label>
+
+            <label index="twitter_txt_info"><![CDATA[2 Klicks für mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie können Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte übertragen – siehe <em>i</em>.]]></label>
+            <label index="txt_twitter_off">nicht mit Twitter verbunden</label>
+            <label index="txt_twitter_on">mit Twitter verbunden</label>
+            <label index="twitter_dummy_caption">Twittern</label>
+
+            <label index="gplus_txt_info"><![CDATA[2 Klicks für mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie können Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte übertragen – siehe <em>i</em>.]]></label>
+            <label index="txt_gplus_off">nicht mit Google+ verbunden</label>
+            <label index="txt_gplus_on">mit Google+ verbunden</label>
+        </languageKey>
+
+    </data>
+</T3locallang>

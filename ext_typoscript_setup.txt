@@ -1,0 +1,83 @@
+plugin.tx_news.tx_jhsocialshareprivacynews {
+    socialshareprivacy_path = EXT:jh_socialshareprivacy_news/Resources/Public/socialshareprivacy/jquery.socialshareprivacy.js
+
+    use_jquery_from_extension = 0
+    jquery_path = EXT:jh_socialshareprivacy_news/Resources/Public/jquery-1.9.1.min.js
+
+    #move javascript for socialshareprivacy-bar settings to head, set this to 1 if you use an extension to minify your js-code
+    js_to_head = 0
+
+    # default-settings by script
+    info_link = http://www.heise.de/ct/artikel/2-Klicks-fuer-mehr-Datenschutz-1333879.html
+    cookie_path =
+    cookie_expires =
+    cookie_domain =
+    css_path = EXT:jh_socialshareprivacy_news/Resources/Public/socialshareprivacy/socialshareprivacy/socialshareprivacy.css
+
+    services {
+        facebook {
+            # activate: on, deactivate: off
+            status=on
+            # URL of dummy-picture
+            dummy_img=
+            # on / off
+            perma_option=on
+            # optional
+            display_name=Facebook
+            # added to the end of the URL for tracking. Optional
+            referrer_track=
+            # recommend (empfehlen) or like (Gefällt mir)
+            action=recommend
+            # language - syntax: de_DE.
+            language=de_DE
+
+        }
+        twitter {
+            # activate: on, deactivate: off
+            status=on
+            # URL of dummy-picture
+            dummy_img=
+            # on / off
+            perma_option=on
+            # optional
+            display_name=Twitter
+            # added to the end of the URL for tracking. Optional
+            referrer_track=
+            # language - syntax: de, en.
+            language=de
+        }
+        gplus {
+            # activate: on, deactivate: off
+            status=on
+            # URL zof dummy-picture
+            dummy_img=
+            # on / off
+            perma_option=on
+            # optional
+            display_name=Google+
+            # added to the end of the URL for tracking. Optional
+            referrer_track=
+            # language - syntax: de, en.
+            language=de
+        }
+    }
+
+	# language
+	/*
+	_LOCAL_LANG.de {
+		txt_help = Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter oder Google in die USA übertragen und unter Umständen auch dort gespeichert. Näheres erfahren Sie durch einen Klick auf das i.
+		settings_perma = Dauerhaft aktivieren und Datenübertragung zustimmen:
+		fb_txt_info=Klicks für mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie können Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte übertragen – siehe i.
+		txt_fb_off=nicht mit Facebook verbunden
+		txt_fb_on=mit Facebook verbunden
+
+		twitter_txt_info=2 Klicks für mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie können Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte übertragen – siehe i.
+		txt_twitter_off=nicht mit Twitter verbunden
+		txt_twitter_on=mit Twitter verbunden
+
+		gplus_txt_info=2 Klicks für mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie können Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte übertragen – siehe i.
+		txt_gplus_off=nicht mit Google+ verbunden
+		txt_gplus_on=mit Google+ verbunden
+	}
+	*/
+}
